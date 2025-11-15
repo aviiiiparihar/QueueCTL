@@ -204,3 +204,10 @@ node src/cli/index.js worker start --count 3
 - Use JSON files for complex commands to avoid shell quoting issues on Windows.
 - Adjust `config` settings for system-wide behavior.
 - Add job timeouts or a UI as needed for production use.
+
+---
+
+## 📬 Contact
+
+Vaidik Singh Parihar  
+GitHub: https://github.com/aviiiiparihar
