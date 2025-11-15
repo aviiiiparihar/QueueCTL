@@ -1,0 +1,5 @@
+{
+  "id": "job1",
+  "command": "echo Hello",
+  "max_retries": 3
+}

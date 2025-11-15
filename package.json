@@ -1,0 +1,20 @@
+{
+  "name": "queuectl",
+  "version": "0.1.0",
+  "main": "src/cli/index.js",
+  "bin": {
+    "queuectl": "./src/cli/index.js"
+  },
+  "scripts": {
+    "start-workers": "node ./src/cli/index.js worker start --count 1",
+    "dev": "node ./src/cli/index.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "mongoose": "^7.5.0",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
